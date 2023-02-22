@@ -34,7 +34,7 @@ body {
    display: grid;
    grid-template-columns: 25% 25% 25% 25%;
 }
-img #logo{
+img#logo{
    width: 100%;
    grid-column: span 3;
 }
@@ -70,3 +70,16 @@ aside {
 aside:nth-of-type(odd) {
    float: left;
 }
+
+aside img {
+   float: left;
+   width: 20%;
+}
+
+aside p {
+   float: left;
+   width: 75; 
+   margin-left: 5%;
+}
+ 
+
