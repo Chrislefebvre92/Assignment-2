@@ -12,7 +12,7 @@
    Filename: sp_layout.css
 
 */
-
+/* Set minimum/Maximum width and height for the webpage body */  
 /* Window and Body Styles */
 html {
    min-height: 100%;
@@ -26,10 +26,12 @@ body {
    margin-right: auto;
    min-height: 100%;
 }
+/* We set images to display as block*/
 img {
    display: block;
 }
 /* CSS Grid Styles */
+/* We setup a grid system with four columns and a full-width logo*/
 body {
    display: grid;
    grid-template-columns: 25% 25% 25% 25%;
@@ -39,6 +41,8 @@ img#logo{
    grid-column: span 3;
 }
 /* Horizontal Navigation List Styles */
+/* We set the navigation list and footer to span the full width of the grid.
+and style the navi list*/
 nav.horizontal, footer {
    grid-column: span 4;
 }
@@ -52,6 +56,7 @@ nav.horizontal li {
 }
 
 /* Section Styles */
+/* Styled the sections with centered images and paragraphs to take up 70% of the width */
 section img {
    width: 50%;
    margin: 0 auto 0 auto;
@@ -63,12 +68,14 @@ section p {
 
 
 /* Customer Comment Styles */
+/*We Styled the customer comments with a float on the alternating comments. 
+Images are floated to the left and paragraphs take up 75% of the width*/
 aside { 
    width: 75%;
    padding-bottom: 30px;
 }
 aside:nth-of-type(odd) {
-   float: left;
+   justify-self: left;
 }
 
 aside img {
@@ -78,7 +85,7 @@ aside img {
 
 aside p {
    float: left;
-   width: 75; 
+   width: 75;  
    margin-left: 5%;
 }
  
