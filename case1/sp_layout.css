@@ -12,6 +12,7 @@
    Filename: sp_layout.css
 
 */
+
 /* Set minimum/Maximum width and height for the webpage body */  
 /* Window and Body Styles */
 html {
@@ -26,10 +27,12 @@ body {
    margin-right: auto;
    min-height: 100%;
 }
+
 /* We set images to display as block*/
 img {
    display: block;
 }
+
 /* CSS Grid Styles */
 /* We setup a grid system with four columns and a full-width logo*/
 body {
@@ -40,6 +43,7 @@ img#logo{
    width: 100%;
    grid-column: span 3;
 }
+
 /* Horizontal Navigation List Styles */
 /* We set the navigation list and footer to span the full width of the grid.
 and style the navi list*/
@@ -85,7 +89,7 @@ aside img {
 
 aside p {
    float: left;
-   width: 75;  
+   width: 75%;  
    margin-left: 5%;
 }
  
